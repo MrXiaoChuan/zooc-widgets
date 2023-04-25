@@ -1,0 +1,22 @@
+{
+  "name": "zooc-widgets",
+  "version": "1.0.0",
+  "description": "zooc的组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrXiaoChuan/zooc-widgets.git"
+  },
+  "keywords": [
+    "组件库"
+  ],
+  "author": "zo.oc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrXiaoChuan/zooc-widgets/issues"
+  },
+  "homepage": "https://github.com/MrXiaoChuan/zooc-widgets#readme"
+}
