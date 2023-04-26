@@ -19,7 +19,7 @@ npm install zooc-widgets
 
 ## 使用
 
-在您的项目中全局导入组件，例如：
+### 1、在您的项目中全局导入组件，例如：
 
 ```javascript
 import Vue from 'vue'
@@ -34,4 +34,27 @@ Vue.use(ZoocWidgets)  //全局注册ZoocWidgets
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+```
+
+### 2、按需导入组件，例如：
+```javascript
+import Vue from 'vue'
+import App from './App.vue'
+import { ZButton } from 'zooc-widgets'  //引入element-ui库
+
+Vue.use(ZButton)
+
+Vue.config.productionTip = false
+
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+```
+
+```javascript
+import { ZButton } from 'zooc-widgets'  //引入element-ui库
+
+export default {
+    components: { ZButton },
+}
 ```
